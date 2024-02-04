@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to right, #8d72c1, #7173bd, #5670b1);
+}
+
+.container {
+  margin: 50px auto;
+  width: 780px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main {
+  width: 220px;
+  height: 410px;
+  background: #9790cc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog {
+  width: 220px;
+  height: 490px;
+}
+
+.fish {
+  width: 220px;
+  height: 380px;
+  justify-content: center;
+}
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: roboto;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+p {
+  font-family: roboto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.features {
+  margin-bottom: 5px;
+  font-family: roboto;
+  padding: 10px;
+}
+
+.line {
+  width: 170px;
+  height: -30px;
+  border-bottom: 2px solid #8d72c1;
+}
+
+.price {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.emoji {
+  width: 170px;
+  height: 30px;
+  background: #fffd38;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: roboto;
+}
+
+img {
+  width: 20px;
+}
